@@ -4,6 +4,16 @@ img {
   display: block;
 }
 
+#mobile-dialog {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  #mobile-dialog:open {
+    display: block;
+  }
+}
+
 .banner {
   position: sticky;
   text-align: center;
